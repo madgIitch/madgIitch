@@ -39,7 +39,6 @@ Proyecto académico sobre **optimización con Programación Lineal y Algoritmos 
 
 ## 📊 GitHub Stats
 
-![Jose's GitHub stats](https://github-readme-stats.vercel.app/api?username=madgIitch&show_icons=true&theme=radical)  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=madgIitch&layout=compact&theme=radical)
 
 ---
