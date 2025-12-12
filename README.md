@@ -1,46 +1,49 @@
 # 👋 Hola, soy Jose Roldán  
 
-💻 Desarrollador Full-Stack orientado a **Web Apps y FinTech**, con pasión por el **diseño de interfaces**, la **arquitectura limpia** y el **desarrollo de productos digitales**.  
-📍 Actualmente en Sevilla, con próximo destino **Berlín** 🇩🇪 para seguir creciendo en el ecosistema startup.  
+Desarrollador **Full-Stack** especializado en **Web Apps, PWA y FinTech**, con enfoque en **arquitectura limpia**, interfaces cuidadas y productos escalables. Actualmente en Sevilla → Berlín 🇩🇪.
 
 ---
 
-## 🚀 Tecnologías y stack principal
-
-- **Frontend**: React, Next.js, PWA, TailwindCSS, Material Design 3  
-- **Backend**: Node.js (Express), Firebase, REST APIs  
-- **Data**: Firestore, SQL, integración con APIs externas (Plaid, etc.)  
-- **Otros**: Git/GitHub, Docker básico, UX/UI, Agile (Scrum)  
+## 🚀 Tecnologías principales
+- **Frontend**: React, Next.js, React Native, PWA, TailwindCSS, Material Design 3  
+- **Backend**: Node.js (Express), Firebase, Supabase, REST APIs  
+- **Data**: Firestore, SQL, Integraciones externas (Plaid, etc.)  
+- **Otros**: Git/GitHub, Docker básico, Agile (Scrum), UX/UI  
 
 ---
 
-## 📂 Proyectos destacados
+## 📂 Proyectos Destacados
 
 ### 🔹 [FinTrack](https://github.com/madgIitch/FinTrack-main2)
-PWA de gestión financiera personal con:
-- Autenticación y gestión de usuarios (Firebase Auth)  
-- Integración con **Plaid API** para vinculación de cuentas bancarias  
-- Visualización de transacciones, presupuestos y alertas  
-- Dashboard con gráficas interactivas (ApexCharts)  
-- **Stack**: Node.js, Firebase, Express, Vanilla JS, PWA  
+PWA de finanzas personales con integración bancaria mediante **Plaid**, dashboards interactivos y sincronización en tiempo real.  
+- Firebase Auth + Firestore  
+- Gestión de cuentas, transacciones y presupuestos  
+- Gráficas con ApexCharts  
+- **Stack**: Node.js, Firebase, Express, PWA  
 
 ### 🔹 [CMFINAL](https://github.com/madgIitch/CMFINAL)
-Proyecto académico sobre **optimización con Programación Lineal y Algoritmos Genéticos**, en **Java**.  
-- Modelado de problemas complejos de asignación y minimización de costes  
-- Implementación de métodos recursivos con memoización  
-- Estructuras de datos diseñadas a medida  
+Proyecto académico en **Java** centrado en optimización:  
+- Programación Lineal  
+- Algoritmos Genéticos  
+- Métodos recursivos con memoización  
+- Modelado de problemas complejos  
+
+### 🔹 [SwipeClean](https://github.com/madgIitch/SwipeClean)
+App Android para depurar galería mediante **gestos inteligentes**, desarrollada en **Kotlin + Jetpack Compose**.  
+- Gestos multidireccionales (borrar, guardar, compartir, Zen)  
+- Modo Zen con audio, temporizador y hápticos  
+- MVVM + StateFlow, animaciones fluidas  
 
 ---
 
-## 🌐 Contacto
-- 📫 **Email**: peorrr9@gmail.com  or peorrr2@gmail.com
+## 🌐 Contacto  
+📫 **Email**: peorrr9@gmail.com / peorrr2@gmail.com  
 
 ---
 
-## 📊 GitHub Stats
-
+## 📊 GitHub Stats  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=madgIitch&layout=compact&theme=radical)
 
 ---
 
-✨ Siempre abierto a colaborar en proyectos innovadores de **FinTech, Web Apps o Startups tecnológicas**.  
+✨ Abierto a colaborar en proyectos de **FinTech, Web Apps y Startups tecnológicas**.
