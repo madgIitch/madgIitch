@@ -1,6 +1,6 @@
-# 👋 Hola, soy Jose Roldán  
+# 👋 Hola, soy Jose Ortiz Roldán  
 
-Desarrollador **Full-Stack** especializado en **Web Apps, PWA y FinTech**, con enfoque en **arquitectura limpia**, interfaces cuidadas y productos escalables. Actualmente en Sevilla → Berlín 🇩🇪.
+Desarrollador **Full-Stack** especializado en **Web Apps, PWAs y Mobile Design*, con enfoque en **arquitectura limpia**, interfaces cuidadas y productos escalables. Actualmente en Berlín 🇩🇪.
 
 ---
 
