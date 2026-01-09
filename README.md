@@ -54,10 +54,6 @@ Android app for gallery cleanup using **smart gestures**, developed in **Kotlin 
 ## 🌐 Contact
 📫 **Email**: peorrr9@gmail.com / peorrr2@gmail.com
 
----
-
-## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=madgIitch&show_icons=true&theme=radical)
 
 ---
 
