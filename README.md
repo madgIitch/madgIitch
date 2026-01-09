@@ -1,49 +1,63 @@
-# 👋 Hola, soy Jose Ortiz Roldán  
+# 👋 Hi, I'm Jose Ortiz Roldán
 
-Desarrollador **Full-Stack** especializado en **Web Apps, PWAs y Mobile Design*, con enfoque en **arquitectura limpia**, interfaces cuidadas y productos escalables. Actualmente en Berlín 🇩🇪.
-
----
-
-## 🚀 Tecnologías principales
-- **Frontend**: React, Next.js, React Native, PWA, TailwindCSS, Material Design 3  
-- **Backend**: Node.js (Express), Firebase, Supabase, REST APIs  
-- **Data**: Firestore, SQL, Integraciones externas (Plaid, etc.)  
-- **Otros**: Git/GitHub, Docker básico, Agile (Scrum), UX/UI  
+**Full-Stack** Developer specialized in **Web Apps, PWAs, and Mobile Design**, focusing on **clean architecture**, polished interfaces, and scalable products. Currently based in Berlin 🇩🇪.
 
 ---
 
-## 📂 Proyectos Destacados
+## 🚀 Core Technologies
+- **Frontend**: React, Next.js, React Native, PWA, TailwindCSS, Material Design 3
+- **Backend**: Node.js (Express), Firebase, Supabase, REST APIs
+- **Data**: Firestore, SQL, External Integrations (Plaid, etc.)
+- **Others**: Git/GitHub, Basic Docker, Agile (Scrum), UX/UI
+
+---
+
+## 📂 Featured Projects
+
+### 🔹 [Tonal Field](https://tonal-field.vercel.app)
+SaaS tool for generating accessible color systems based on **Energy & Tension** dimensions, developed with **Next.js 14 + Supabase**.
+- **Innovation**: Interactive 2D field for exploring color spaces (OKLCH) instead of random generation.
+- **Features**: Semantic palette generation, WCAG contrast auto-fix, Dual Theme (Light/Dark), and Color Blindness simulation.
+- **Architecture**: Full SaaS implementation with Authentication, Database (RLS), Edge Functions, and Stripe payments.
+- **Stack**: Next.js, TypeScript, TailwindCSS, Supabase, Stripe.
+
+### 🔹 [HomiMatch](https://github.com/HomiMatch/HomiMatchApp)
+Mobile platform for connecting roommates and rooms via an affinity matching system, developed in **React Native + Supabase**.
+- Swipe system with gestures and fluid animations to connect profiles (Like/Reject).
+- Comprehensive user profile management, including interests, lifestyle, and compatibility.
+- Landlord module for publishing and managing rooms and availability.
+- Real-time chat, advanced search filters, and Premium features.
+- Clean architecture, React Navigation, and custom design system (Theming).
 
 ### 🔹 [FinTrack](https://github.com/madgIitch/FinTrack-main2)
-PWA de finanzas personales con integración bancaria mediante **Plaid**, dashboards interactivos y sincronización en tiempo real.  
-- Firebase Auth + Firestore  
-- Gestión de cuentas, transacciones y presupuestos  
-- Gráficas con ApexCharts  
-- **Stack**: Node.js, Firebase, Express, PWA  
+Personal finance PWA with bank integration via **Plaid**, interactive dashboards, and real-time synchronization.
+- Firebase Auth + Firestore
+- Account, transaction, and budget management
+- Charts with ApexCharts
+- **Stack**: Node.js, Firebase, Express, PWA
 
 ### 🔹 [CMFINAL](https://github.com/madgIitch/CMFINAL)
-Proyecto académico en **Java** centrado en optimización:  
-- Programación Lineal  
-- Algoritmos Genéticos  
-- Métodos recursivos con memoización  
-- Modelado de problemas complejos  
+Academic project in **Java** focused on optimization:
+- Linear Programming
+- Genetic Algorithms
+- Recursive methods with memoization
+- Complex problem modeling
 
 ### 🔹 [SwipeClean](https://github.com/madgIitch/SwipeClean)
-App Android para depurar galería mediante **gestos inteligentes**, desarrollada en **Kotlin + Jetpack Compose**.  
-- Gestos multidireccionales (borrar, guardar, compartir, Zen)  
-- Modo Zen con audio, temporizador y hápticos  
-- MVVM + StateFlow, animaciones fluidas  
+Android app for gallery cleanup using **smart gestures**, developed in **Kotlin + Jetpack Compose**.
+- Multidirectional gestures (delete, save, share, Zen)
+- Zen Mode with audio, timer, and haptics
+- MVVM + StateFlow, fluid animations
 
 ---
 
-## 🌐 Contacto  
-📫 **Email**: peorrr9@gmail.com / peorrr2@gmail.com  
+## 🌐 Contact
+📫 **Email**: peorrr9@gmail.com / peorrr2@gmail.com
 
 ---
 
-## 📊 GitHub Stats  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=madgIitch&layout=compact&theme=radical)
-
+## 📊 GitHub Stats
+[![Jose's GitHub stats](https://github-readme-stats.vercel.app/api?username=madgIitch)](https://github.com/madgIitch/github-readme-stats)
 ---
 
-✨ Abierto a colaborar en proyectos de **FinTech, Web Apps y Startups tecnológicas**.
+✨ Open to collaborating on **FinTech, Web Apps, and Tech Startups**.
