@@ -57,7 +57,6 @@ Android app for gallery cleanup using **smart gestures**, developed in **Kotlin 
 ---
 
 ## 📊 GitHub Stats
-[![Jose's GitHub stats](https://github-readme-stats.vercel.app/api?username=madgIitch)](https://github.com/madgIitch/github-readme-stats)
----
+[![Jose's GitHub stats](https://github-readme-stats.vercel.app/api?username=madgIitch)](https://github.com/anuraghazra/github-readme-stats)---
 
 ✨ Open to collaborating on **FinTech, Web Apps, and Tech Startups**.
