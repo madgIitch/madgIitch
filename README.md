@@ -14,6 +14,13 @@
 
 ## 📂 Featured Projects
 
+### 🔹 [What's In My Fridge](https://github.com/madgIitch/What-s-in-my-fridge-)
+Cross-platform inventory management app migrated from **Kotlin/Jetpack Compose** to **React Native + Expo**.
+- **Smart Features**: OCR receipt scanning (ML Kit), AI-powered recipe suggestions (Cloud Functions), and expiry tracking with notifications.
+- **Architecture**: Offline-first design using **WatermelonDB** (Reactive SQLite) for local caching and bidirectional **Firestore** sync.
+- **Tech**: Implements background tasks, complex state management with **Zustand**, and native module integration.
+- **Stack**: React Native, TypeScript, WatermelonDB, Firebase, Expo.
+
 ### 🔹 [Tonal Field](https://tonal-field.vercel.app)
 SaaS tool for generating accessible color systems based on **Energy & Tension** dimensions, developed with **Next.js 14 + Supabase**.
 - **Innovation**: Interactive 2D field for exploring color spaces (OKLCH) instead of random generation.
