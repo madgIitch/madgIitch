@@ -1,67 +1,88 @@
-# 👋 Hi, I'm Jose Ortiz Roldán
+# José Ortiz Roldán
 
-**Full-Stack** Developer specialized in **Web Apps, PWAs, and Mobile Design**, focusing on **clean architecture**, polished interfaces, and scalable products. Currently based in Berlin 🇩🇪.
+**Fullstack Developer** · React / React Native · Supabase · TypeScript
 
----
+Junior developer with real production experience. I build complete products — architecture, backend, frontend, and deployment — not just UI layers. Currently finishing my CS degree at Universidad de Sevilla (Erasmus at Freie Universität Berlin) and relocating to Sevilla in 2026.
 
-## 🚀 Core Technologies
-- **Frontend**: React, Next.js, React Native, PWA, TailwindCSS, Material Design 3
-- **Backend**: Node.js (Express), Firebase, Supabase, REST APIs
-- **Data**: Firestore, SQL, External Integrations (Plaid, etc.)
-- **Others**: Git/GitHub, Basic Docker, Agile (Scrum), UX/UI
+Open to **junior positions and paid internships** in web or mobile development.
+
+📫 peorrr2@gmail.com &nbsp;·&nbsp; 📍 Sevilla (open to remote)
 
 ---
 
-## 📂 Featured Projects
+## Stack
 
-### 🔹 [What's In My Fridge](https://github.com/madgIitch/What-s-in-my-fridge-)
-Cross-platform inventory management app migrated from **Kotlin/Jetpack Compose** to **React Native + Expo**.
-- **Smart Features**: OCR receipt scanning (ML Kit), AI-powered recipe suggestions (Cloud Functions), and expiry tracking with notifications.
-- **Architecture**: Offline-first design using **WatermelonDB** (Reactive SQLite) for local caching and bidirectional **Firestore** sync.
-- **Tech**: Implements background tasks, complex state management with **Zustand**, and native module integration.
-- **Stack**: React Native, TypeScript, WatermelonDB, Firebase, Expo.
-
-### 🔹 [Tonal Field](https://tonal-field.vercel.app)
-SaaS tool for generating accessible color systems based on **Energy & Tension** dimensions, developed with **Next.js 14 + Supabase**.
-- **Innovation**: Interactive 2D field for exploring color spaces (OKLCH) instead of random generation.
-- **Features**: Semantic palette generation, WCAG contrast auto-fix, Dual Theme (Light/Dark), and Color Blindness simulation.
-- **Architecture**: Full SaaS implementation with Authentication, Database (RLS), Edge Functions, and Stripe payments.
-- **Stack**: Next.js, TypeScript, TailwindCSS, Supabase, Stripe.
-
-### 🔹 [HomiMatch](https://github.com/HomiMatch/HomiMatchApp)
-Mobile platform for connecting roommates and rooms via an affinity matching system, developed in **React Native + Supabase**.
-- Swipe system with gestures and fluid animations to connect profiles (Like/Reject).
-- Comprehensive user profile management, including interests, lifestyle, and compatibility.
-- Landlord module for publishing and managing rooms and availability.
-- Real-time chat, advanced search filters, and Premium features.
-- Clean architecture, React Navigation, and custom design system (Theming).
-
-### 🔹 [FinTrack](https://github.com/madgIitch/FinTrack-main2)
-Personal finance PWA with bank integration via **Plaid**, interactive dashboards, and real-time synchronization.
-- Firebase Auth + Firestore
-- Account, transaction, and budget management
-- Charts with ApexCharts
-- **Stack**: Node.js, Firebase, Express, PWA
-
-### 🔹 [CMFINAL](https://github.com/madgIitch/CMFINAL)
-Academic project in **Java** focused on optimization:
-- Linear Programming
-- Genetic Algorithms
-- Recursive methods with memoization
-- Complex problem modeling
-
-### 🔹 [SwipeClean](https://github.com/madgIitch/SwipeClean)
-Android app for gallery cleanup using **smart gestures**, developed in **Kotlin + Jetpack Compose**.
-- Multidirectional gestures (delete, save, share, Zen)
-- Zen Mode with audio, timer, and haptics
-- MVVM + StateFlow, fluid animations
+**Mobile & Web** — React Native, Expo, React, Next.js, PWA, TypeScript  
+**Backend** — Supabase (PostgreSQL + Edge Functions/Deno + Realtime), Firebase, Node.js  
+**Payments & Services** — Stripe, FCM v1, RevenueCat, Plaid, Cloud Run, Docker  
+**Tools** — Git, Figma, Android Studio, Expo EAS, VS Code
 
 ---
 
-## 🌐 Contact
-📫 **Email**: peorrr9@gmail.com / peorrr2@gmail.com
+## Projects
 
+### [HomiMatch](https://github.com/HomiMatch/HomiMatchApp) — Roommate matching app
+*React Native · Expo · TypeScript · Supabase · Stripe · FCM*
+
+Mobile platform for finding rooms and flatmates, currently in final testing before App Store / Google Play release. I built and own the entire stack.
+
+- **Recommendation engine** with weighted scoring: 40% lifestyle · 30% budget · 20% location · 10% demographics. Separate flows for seekers and owners, with 1.4× visibility boost for premium users.
+- **~45 Supabase Edge Functions** in Deno with Zod validation covering auth, matching, messaging, payments, push notifications, and admin logic.
+- **Full Stripe integration**: checkout sessions, customer portal, webhooks (`subscription.updated`, `invoice.payment_failed`), transactional rollback on DB errors.
+- **FCM v1 push notifications** without Firebase SDK — manually signing JWTs with `crypto.subtle` to avoid heavy Deno dependencies.
+- **Real-time chat** via `postgres_changes` subscriptions scoped per conversation.
+- **Rate-limited message requests**: 1 lifetime request (free) / 3 per week (premium), enforced server-side.
+- **Shared lock on token refresh** to prevent concurrent JWT burns.
 
 ---
 
-✨ Open to collaborating on **FinTech, Web Apps, and Tech Startups**.
+### [What's In My Fridge](https://github.com/madgIitch/What-s-in-my-fridge-) — AI kitchen assistant
+*React Native · Expo · TypeScript · Firebase · WatermelonDB · Cloud Run*
+
+Android app for scanning receipts, managing pantry inventory, and suggesting recipes.
+
+- AI recipe import pipeline from YouTube / Instagram / TikTok / blog URLs: Whisper (audio transcription) + LLM (ingredient and step extraction).
+- Containerized AI services on Cloud Run (Ollama + Whisper) integrated with Firebase Cloud Functions.
+- Offline-first architecture with WatermelonDB (reactive SQLite) and bidirectional Firestore sync.
+- Freemium monetization with RevenueCat: paywall, entitlements, purchase restoration, monthly usage limits.
+
+---
+
+### [Tonal Field](https://tonal-field.vercel.app) — Accessible color system generator
+*Next.js 14 · TypeScript · TailwindCSS · Supabase · Stripe*
+
+SaaS tool for generating color systems based on Energy & Tension dimensions using OKLCH color space.
+
+- Interactive 2D field for exploring perceptually uniform color spaces.
+- Semantic palette generation with WCAG contrast auto-fix and color blindness simulation.
+- Full SaaS stack: Auth, PostgreSQL with RLS, Edge Functions, Stripe subscriptions.
+
+---
+
+### [FinTrack](https://github.com/madgIitch/FinTrack-main2) — Personal finance PWA
+*JavaScript · Firebase · Node.js · IndexedDB · Service Workers*
+
+Progressive Web App for income and expense tracking with full offline support.
+
+- Real-time sync and offline-first architecture via IndexedDB + Service Workers.
+- Interactive dashboards and financial visualizations.
+- Bank account integration via Plaid API.
+
+---
+
+### [SwipeClean](https://github.com/madgIitch/SwipeClean) — Gallery cleanup for Android
+*Kotlin · Jetpack Compose*
+
+Gallery management app using multidirectional swipe gestures (delete, save, share, Zen mode).
+
+- Zen Mode with audio, timer, and haptic feedback.
+- MVVM + StateFlow, fluid animations.
+
+---
+
+## Education
+
+**Grado en Ingeniería Informática** — Universidad de Sevilla *(graduating 2025)*  
+TFG: Full development of HomiMatch using AI-assisted development tools and comparative analysis of current AI coding approaches.
+
+**Erasmus** — Freie Universität Berlin, Germany *(2023–2024, full academic year)*
