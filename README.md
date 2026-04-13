@@ -2,7 +2,7 @@
 
 **Fullstack Developer** · React / React Native · Supabase · TypeScript
 
-Junior developer with real production experience. I build complete products — architecture, backend, frontend, and deployment — not just UI layers. Currently finishing my CS degree at Universidad de Sevilla (Erasmus at Freie Universität Berlin) and relocating to Sevilla in 2026.
+Junior developer with real production experience. I build complete products — architecture, backend, frontend, and deployment — not just UI layers.
 
 Open to **junior positions and paid internships** in web or mobile development.
 
