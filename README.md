@@ -78,11 +78,3 @@ Gallery management app using multidirectional swipe gestures (delete, save, shar
 - Zen Mode with audio, timer, and haptic feedback.
 - MVVM + StateFlow, fluid animations.
 
----
-
-## Education
-
-**Grado en Ingeniería Informática** — Universidad de Sevilla *(graduating 2025)*  
-TFG: Full development of HomiMatch using AI-assisted development tools and comparative analysis of current AI coding approaches.
-
-**Erasmus** — Freie Universität Berlin, Germany *(2023–2024, full academic year)*
