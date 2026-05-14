@@ -13,7 +13,8 @@ Open to **junior positions and paid internships** in web or mobile development.
 ## Stack
 
 **Mobile & Web** — React Native, Expo, React, Next.js, PWA, TypeScript  
-**Backend** — Supabase (PostgreSQL + Edge Functions/Deno + Realtime), Firebase, Node.js  
+**Backend** — Supabase (PostgreSQL + Edge Functions/Deno + Realtime), Firebase, FastAPI, Node.js  
+**AI & Observability** — Gemini, Google ADK, OpenTelemetry, OpenInference, Phoenix/Arize, LLM-as-judge evals  
 **Payments & Services** — Stripe, FCM v1, RevenueCat, Plaid, Cloud Run, Docker  
 **Tools** — Git, Figma, Android Studio, Expo EAS, VS Code
 
@@ -33,6 +34,20 @@ Mobile platform for finding rooms and flatmates, currently in final testing befo
 - **Real-time chat** via `postgres_changes` subscriptions scoped per conversation.
 - **Rate-limited message requests**: 1 lifetime request (free) / 3 per week (premium), enforced server-side.
 - **Shared lock on token refresh** to prevent concurrent JWT burns.
+
+---
+
+### [Phoenix Reflex](https://github.com/madgIitch/Phoenix-Reflex) — Self-improving RAG agent
+*Python · FastAPI · Google ADK · Gemini · OpenTelemetry · Phoenix/Arize · React*
+
+Regression-driven PDF RAG system built for an AI observability hackathon. Weak answers become regression cases, prompt candidates, and scored experiments before a human promotes changes.
+
+- **Code-owned agent runtime** with Google ADK and Gemini, exposed through a FastAPI backend and React demo UI.
+- **OpenInference/OpenTelemetry instrumentation** for Google ADK and GenAI calls, sending traces to Phoenix/Arize.
+- **Phoenix MCP runtime introspection** so the agent can inspect operational traces and answer questions like what failed recently and what should improve next.
+- **In-session correction loop** that detects phantom citation IDs before returning the answer, sends correction turns inside the same ADK session, and records the correction telemetry.
+- **LLM-as-judge evaluation pipeline** for faithfulness, document relevance, and answer-quality checks, with human-controlled prompt promotion.
+- **Prompt experiment workflow**: captured failures generate regression cases, candidate prompts are compared against production, and promotion to staging remains manual.
 
 ---
 
@@ -77,4 +92,3 @@ Gallery management app using multidirectional swipe gestures (delete, save, shar
 
 - Zen Mode with audio, timer, and haptic feedback.
 - MVVM + StateFlow, fluid animations.
-
